@@ -1,5 +1,6 @@
 import './App.css';
 import Purity from './Context/Purity';
+import StateHook from './Context/StateHook';
 // import Buttonbasic from './Component/Button';
 // import { ErrorBoundary } from './Component/ErrorBoundary';
 // import LifecycleFunctional from './Component/LifeCycleFunctional';
@@ -27,6 +28,7 @@ function App() {
       </ErrorBoundary> */}
       {/* <LifecycleFunctional></LifecycleFunctional> */}
       <Purity></Purity>
+      <StateHook></StateHook>
     </div>
   );
 }
