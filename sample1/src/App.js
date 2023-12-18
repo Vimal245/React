@@ -1,7 +1,8 @@
 import './App.css';
+import Purity from './Context/Purity';
 // import Buttonbasic from './Component/Button';
 // import { ErrorBoundary } from './Component/ErrorBoundary';
-import LifecycleFunctional from './Component/LifeCycleFunctional';
+// import LifecycleFunctional from './Component/LifeCycleFunctional';
 // import PropsFunc from './Props/PropsFunc';
 // import PropsClass from './Props/PropsClass';
 // import StateClassCom from './Props/StateClassCom';
@@ -24,8 +25,8 @@ function App() {
       {/* <ErrorBoundary>
         <Hero heroName="Vijay"></Hero>
       </ErrorBoundary> */}
-      <LifecycleFunctional></LifecycleFunctional>
-
+      {/* <LifecycleFunctional></LifecycleFunctional> */}
+      <Purity></Purity>
     </div>
   );
 }
